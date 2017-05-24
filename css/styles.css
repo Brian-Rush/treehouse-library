@@ -14,6 +14,7 @@ body {
 .nav-bar {
   padding: 10px 10px;
   min-height: 70px;
+  max-width: 1110px;
 }
 
 #nav-num {
@@ -25,7 +26,9 @@ body {
 
 .nav-bar h2 {
   float: left;
+  padding-left: 25px;
   transform: translateY(50%);
+  color: #4b5658;
 }
 #nav-char {
   float: right;
@@ -55,14 +58,20 @@ body {
 }
 
 hr {
-  /*color: #b2bac2;*/
   border:none;
- 	width: 95%;
+ 	max-width: 1100px;
 	height:1px;
 	margin-top: 0;
 	border-bottom: 1px solid #b2bac2;
 	box-shadow: 0px 1px 1px #b2bac2;
-  margin: auto;
+  margin-left: 30px;
+}
+
+/*Box Container*/
+
+#box-container {
+  max-width: 1110px;
+  margin-left: 30px;
 }
 
 /*individual boxes*/
@@ -74,7 +83,8 @@ hr {
   border-radius: 5px;
   margin-top: 10px;
   background-color: #ffffff;
-  margin-left: 20px;
+  margin: 20px;
+  float: left;
 }
 
 .box-header {
@@ -83,8 +93,16 @@ hr {
 }
 
 /*box header*/
-#box-1 {
+#box-1, #box-4 {
   background-color: #2c9676;
+}
+
+#box-2 {
+  background-color: #f092b0;
+}
+
+#box-3 {
+  background-color: #838cc7;
 }
 
 #star-circle {
@@ -161,6 +179,14 @@ hr {
 
 .java {
   color: #2c9676;
+}
+
+.python {
+   color: #f092b0;
+}
+
+.wordpress {
+  color: #838cc7;
 }
 
 .intermediate {
