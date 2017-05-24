@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edeff0;
+  font-family: arial;
+}
+
+/*nav bar*/
+
+.nav-bar {
+  padding: 10px 10px;
+  min-height: 70px;
+}
+
+#nav-num {
+  color: #b2bac2;
+  float: right;
+  font-size: 1.1em;
+  transform: translateY(65%);
+}
+
+.nav-bar h2 {
+  float: left;
+  transform: translateY(50%);
+}
+#nav-char {
+  float: right;
+  color: #b2bac2;
+  font-size: 20px;
+  letter-spacing: 5px;
+  transform: translateY(60%);
+}
+
+.nav-bar img {
+  float: right;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+#bell {
+  transform: translateY(25%);
+}
+
+#arrow {
+  transform: translateY(40%);
+}
+
+#friend {
+  transform: translateY(15%);
+  padding-right: 15px;
+}
+
+hr {
+  /*color: #b2bac2;*/
+  border:none;
+ 	width: 95%;
+	height:1px;
+	margin-top: 0;
+	border-bottom: 1px solid #b2bac2;
+	box-shadow: 0px 1px 1px #b2bac2;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+▶︎
+★
+BLACK STAR
+Unicode: U+2605, UTF-8: E2 98 85
+
+﹀
+PRESENTATION FORM FOR VERTICAL RIGHT ANGLE BRACKET
+Unicode: U+FE40, UTF-8: EF B9 80
