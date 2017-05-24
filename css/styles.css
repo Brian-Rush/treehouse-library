@@ -65,18 +65,104 @@ hr {
   margin: auto;
 }
 
+/*individual boxes*/
 
+.box {
+  width: 515px;
+  height: 312px;
+  border-bottom: 2px solid #b2bac2;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  margin-left: 20px;
+}
 
+.box-header {
+  height: 60px;
+  border-radius: 5px 5px 0 0;
+}
 
+/*box header*/
+#box-1 {
+  background-color: #2c9676;
+}
 
+#star-circle {
+  margin-left: 8px;
+  float: right;
+}
 
+#play-circle {
+  float: right;
+}
 
+.time {
+  float: right;
+  font-size: 16px;
+  color: white;
+  transform: translateY(100%);
+  padding-right: 15px;
+}
 
-▶︎
-★
-BLACK STAR
-Unicode: U+2605, UTF-8: E2 98 85
+#book-icon {
+  float: left;
+  fill: white;
+  width: 35px;
+  margin-left: 15px;
+  transform: translateY(60%);
+}
 
-﹀
-PRESENTATION FORM FOR VERTICAL RIGHT ANGLE BRACKET
-Unicode: U+FE40, UTF-8: EF B9 80
+.hollow-dots {
+  float: left;
+  font-size: 35px;
+  color: white;
+  margin-left: 15px;
+  transform: translateY(30%);
+  opacity: .3;
+}
+
+/*box body*/
+.box-body {
+  padding: 30px;
+  height: 150px;
+}
+
+.course {
+  color: #7b8b8e;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.course-title {
+  color: #4b5658;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.course-text {
+  color: #7b8b8e;
+}
+
+/*box footer*/
+.box-footer {
+  padding: 30px;
+}
+
+.oval {
+  border: 1px solid #b2bac2;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  margin-right: 8px;
+}
+
+.java {
+  color: #2c9676;
+}
+
+.intermediate {
+  color: #b2bac2;
+}
